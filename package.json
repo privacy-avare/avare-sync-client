@@ -1,0 +1,25 @@
+{
+  "name": "avare-sync-client",
+  "version": "1.0.0",
+  "description": "Lightweight client application to sync data with the avare-sync-server",
+  "main": "src/actions.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/privacy-avare/avare-sync-client.git"
+  },
+  "keywords": [
+    "sync",
+    "synchronisation",
+    "client",
+    "ios",
+    "android",
+    "react-component",
+    "react-native",
+  ],
+  "author": "Philipp Gordetzki",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/privacy-avare/avare-sync-client/issues"
+  },
+  "homepage": "https://github.com/privacy-avare/avare-sync-client"
+}
