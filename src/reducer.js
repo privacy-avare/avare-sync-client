@@ -32,14 +32,14 @@ export default function reducer(state = initialState, action) {
     switch (action.type) {
 
         /*case LOAD_PREFERENCES_SUCCESS:
-            //console.log("Preference sucess" + action.payload)
+            //console.log("Preference success" + action.payload)
             return {
                 ...state,
                 preferences: action.payload
             }
         */
         case LOAD_PROFILE_SUCCESS:
-            console.log("Sucess " + action.payload)
+            console.log("Success " + action.payload)
             return {
                 ...state,
                 profile: action.payload

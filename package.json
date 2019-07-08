@@ -7,6 +7,12 @@
     "type": "git",
     "url": "git+https://github.com/privacy-avare/avare-sync-client.git"
   },
+  "author": "Philipp Gordetzki",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/privacy-avare/avare-sync-client/issues"
+  },
+  "homepage": "https://github.com/privacy-avare/avare-sync-client",
   "keywords": [
     "sync",
     "synchronisation",
@@ -15,11 +21,5 @@
     "android",
     "react-component",
     "react-native",
-  ],
-  "author": "Philipp Gordetzki",
-  "license": "Apache 2.0",
-  "bugs": {
-    "url": "https://github.com/privacy-avare/avare-sync-client/issues"
-  },
-  "homepage": "https://github.com/privacy-avare/avare-sync-client"
+  ]
 }
