@@ -2,7 +2,7 @@
   "name": "avare-sync-client",
   "version": "1.0.0",
   "description": "Lightweight client application to sync data with the avare-sync-server",
-  "main": "actions.js",
+  "main": "src/actions.js",
   "scripts": {
     "test": "//"
   },
