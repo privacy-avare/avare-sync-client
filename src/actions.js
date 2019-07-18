@@ -71,7 +71,7 @@ export function loadPreferences(profile, time) {
             url: SERVER + '/v1/profiles/' + profile + '/' + time,
             method: 'GET',
             headers: {
-                "Accept": "*/*"
+                'Accept': '*/*'
             }
         }
     }
@@ -88,14 +88,14 @@ export function getProfile() {
             url: SERVER + '/v1/newProfiles',
             method: 'POST',
             headers: {
-                "Accept": "*/*"
+                'Accept': '*/*'
             }
 
         }
     }
 }
 
-export function uploadProfile(id, clientProflieChange, preferences) {
+export function uploadProfile(id, clientProfileChange, preferences) {
     console.log('Uploading')
     return {
         types: [
@@ -104,10 +104,10 @@ export function uploadProfile(id, clientProflieChange, preferences) {
             UPLOAD_PROFILE_FAIL  
         ],
         promise : {
-            url: SERVER + '/v1/profiles/' + id + '/' + clientProflieChange,
+            url: SERVER + '/v1/profiles/' + id + '/' + clientProfileChange,
             method: 'PUT',
             headers: {
-                "Accept": "*/*",
+                'Accept': '*/*',
             },
             body : preferences,
             
